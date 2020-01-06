@@ -93,8 +93,8 @@ Some arguments commonly used to start ``filebin`` are:
 
 ```bash
 $ ${GOPATH}/bin/filebin \
-  --host 0.0.0.0 --port 31337
-  --baseurl http://api.example.com:31337
+  --host 0.0.0.0 --port 31337 \
+  --baseurl http://api.example.com:31337 \
   --filedir ~/filebin/files \
   --tempdir ~/filebin/temp \
   --expiration 604800 \
